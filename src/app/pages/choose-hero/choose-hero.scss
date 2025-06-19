@@ -1,0 +1,30 @@
+:host {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr;
+  padding: 24px;
+}
+
+.choose-hero-button {
+  border: 1px solid black;
+  box-shadow: 2px 2px 6px black;
+  border-radius: 8px;
+}
+
+.choose-hero-button:hover {
+  box-shadow: 1px 1px 3px black;
+}
+
+.choose-hero-button:active {
+  box-shadow: none;
+}
+
+.black {
+  background: center no-repeat url("./black.png");
+}
+
+.robo {
+  background: center no-repeat url("./robo.png");
+}
